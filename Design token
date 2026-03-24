@@ -1,0 +1,9 @@
+:root {
+color-primary: #7D20E7;
+text-align: center;
+font-family: "Hammersmith One";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
