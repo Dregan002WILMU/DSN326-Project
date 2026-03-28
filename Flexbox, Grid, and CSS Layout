@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  background-color: #7D20E7;
+}
+
+.flex-container div {
+  background-color: #6BBC6F;
+  margin: 10px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7D20E7;
+  padding: 20px;
+}
+.grid-container div {
+  background-color: #6BBC6F;
+  border: 1px solid yellow;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Flexbox</h1>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<h1>Grid</h1>
+
+<div class="grid-container">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+  <div>D</div>
+  <div>E</div>
+  <div>F</div>
+</div>
+
+</body>
+</html>
